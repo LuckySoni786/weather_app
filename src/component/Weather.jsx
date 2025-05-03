@@ -3,7 +3,8 @@ import { FaLocationArrow, FaMapPin, FaSearch, FaWater, FaWind } from 'react-icon
 import axios from 'axios';
 const WeatherApp = () => {
     // api key 
-    const apiKey = import.meta.env.VITE_WEATHER_API_KEY;
+    // const apiKey = import.meta.env.VITE_WEATHER_API_KEY;
+    const apiKey = '5ba4e110c9d81d9509ef5224f6f67ebb';
 
     // states 
     const [weather, setWeather] = useState(null);
