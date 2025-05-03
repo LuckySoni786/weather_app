@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+@keyframes rounded {
+    from {
+      transform: rotate(0deg);
+      
+    }
+    to {
+      transform: rotate(360deg);
+      
+    }
+  }
+  
+  .rounded-in {
+    animation: rounded 16s linear infinite ;
+  }
+  
+.rounded{
+    transform: rotate(70deg);
+}
+
+@keyframes blink {
+  0% { opacity: 1; }
+  50% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.blink-button {
+  animation: blink 1s infinite;
+}
